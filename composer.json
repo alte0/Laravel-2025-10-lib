@@ -1,0 +1,21 @@
+{
+  "name": "alte0/calc",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Alte0\\Calc\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "^12",
+    "illuminate/http": "^12",
+    "illuminate/console": "^12"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Alte0\\Calc\\ServiceProvider"
+      ]
+    }
+  }
+}
